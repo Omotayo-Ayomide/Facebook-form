@@ -1,0 +1,149 @@
+<html>
+
+<head>
+    <title>forms</title>
+    <style>
+        form{
+            background-color: white;
+            /* vw stands for view port width */
+            width: 50vw;
+            margin: auto;
+            border-radius:1.1rem ;
+        }
+        h1{
+            color: rgb(0, 100, 249);
+            font-size:3rem ;
+            text-align:center ;
+        }
+        h3{
+            text-align: center;
+        }
+        h6{
+            text-align: center;
+            color: rgb(71, 69, 69);
+        }
+    </style>
+</head>
+
+<body style="background-color:rgb(242, 247, 247);">
+    <!-- attributes and values -->
+    <!-- post -->
+    <!-- get -->
+    <!-- update -->
+    <!-- delete -->
+    <h1>Facebook</h1>
+    <form action="#">
+        <h3>Create a new account</h3>
+        <h6>Its quick and easy</h6>
+        <hr />
+        <!-- input fields -->
+        <input type="text" placeholder="first name" />
+        <input type="text" placeholder="surname" />
+        <br />
+        <br />
+        <input type="tel" placeholder="enter phone number" />
+        <input type="email" placeholder="email address" />
+        <br />
+        <br />
+        <input type="password" placeholder="password" />
+        <fieldset>
+            <legend>Date of Birth</legend>
+            <select name="days of the month" id="days">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <select name="months" id="months">
+                <option value="">Months</option>
+                <option value="january">january</option>
+                <option value="february">february</option>
+                <option value="march">march</option>
+                <option value="april">april</option>
+                <option value="may">may</option>
+                <option value="june">june</option>
+                <option value="july">july</option>
+                <option value="august">august</option>
+                <option value="september">september</option>
+                <option value="october">october</option>
+                <option value="november">november</option>
+                <option value="december">december</option>
+            </select>
+            <select name="year" id="year">
+                <option value="year">Year</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="male">
+                male
+            </label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">
+                female
+            </label>
+            <input type="radio" name="gender" id="female">
+            <label for="custom">
+                custom
+            </label>
+            <input type="radio" name="gender" id="custom">
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="html">html</label>
+            <input type="checkbox" name="html" id="html">
+            <label for="css">css</label>
+            <input type="checkbox" name="css" id="css">
+            <label for="javascript">javascript</label>
+            <input type="checkbox" name="javascript" id="javascript">
+            </label>
+        </fieldset>
+        <p>Insert your resume:</p>
+        <input type="file" name="Upload file" />
+        <p>
+            <label for="I agree terms and conditions">I agree terms and conditions</label>
+            <input type="checkbox" name="I agree terms and conditions" id="I agree terms and conditions">
+        </p>
+        <button style="color:white; background-color:black; height:2rem; width:5rem; border-radius:0.5rem ;">Register</button>
+    </form>
+</body>
+<!-- There are 3 types of css
+ Inline css, Internal css, External css -->
+ <!-- Attributes and values -->
+  <!-- Properties and values -->
+   <!-- Inline styling always stays inside html opening tag  -->
+    <!-- Internal styling always stays inside the head tag below the title tag -->
+</html>
